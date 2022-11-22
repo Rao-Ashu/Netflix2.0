@@ -1,0 +1,106 @@
+.profileScreen{
+    color:white;
+    /* position:relative; */
+    height: 100vh;
+}
+
+.profileScreen_body{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute; */
+    padding-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    width: 50%;
+    background-color: black;
+}
+.profileScreen_body > h1{
+    font-weight: 400;
+    font-size: 2.3rem;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #282c2d;
+}
+
+.profileScreen_bodyContent{
+    display: flex;
+    padding-top: 10px;
+}
+.profileScreen_bodyContentBox{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.profileScreen_bodyContentBox > h3{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #282c2d;
+
+}
+
+.profileScreen_avatar{
+    object-fit: contain;
+    width:10%;
+    height: 10%;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.mailbox{
+    background-color: grey;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding:10px;
+    margin-bottom: 10px;
+}
+
+.profileScreen_signout{
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.plan_1{
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 8px;
+}
+.planSub_button{
+    position: absolute;
+    right: 2px;
+    border: none;
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 1px;
+
+}
+
+h5{
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.planSub_button_enrolled{
+    position: absolute;
+    right: 2px;
+    border: none;
+    color: black;
+    background-color: gray;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 1px;
+}
