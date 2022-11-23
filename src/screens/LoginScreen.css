@@ -100,5 +100,16 @@
     outline-width: 0;
     border-radius: 0.1rem;
     font-weight: 600;
+}
 
+@media (max-width: 630px) {
+    
+    .loginScreen_input >form> input{
+        width: 60%;
+        height:15px;
+    }
+    .loginScreen_getStarted{
+        margin-top: 10px;
+        padding:8px;
+    }
 }
